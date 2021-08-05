@@ -25,5 +25,9 @@ WebUI.setText(findTestObject('Practice Form/TextBox_UserEmail'), 'automation.tes
 
 WebUI.click(findTestObject('Practice Form/RadioButton_Male'))
 
+WebUI.takeScreenshot()
+
 WebUI.delay(5)
+
+WebUI.closeBrowser()
 
