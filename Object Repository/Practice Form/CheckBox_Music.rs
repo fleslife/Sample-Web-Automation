@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>CheckBox_Music</description>
+   <name>CheckBox_Music</name>
+   <tag></tag>
+   <elementGuidId>4f5eb4d3-26e9-4ce4-a477-52679882dde0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='hobbiesWrapper']/div[2]/div[3]/label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
