@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CucumberKW.runFeatureFile('Include/features/Web/Practice Form.feature')
+//CucumberKW.runFeatureFile('Include/features/Web/Practice Form.feature')
 
-//CucumberKW.runWithCucumberRunner(CucumberRunner.class)
+CucumberKW.runWithCucumberRunner(CucumberRunner.class)
 

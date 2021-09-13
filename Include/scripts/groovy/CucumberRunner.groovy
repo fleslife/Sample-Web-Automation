@@ -1,4 +1,3 @@
-package com.fles.web
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -42,11 +41,31 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-import org.junit.runner.RunWith;
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith
+import cucumber.api.CucumberOptions
+import cucumber.api.junit.Cucumber
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="Include/features", glue="", plugin=["pretty", "html:ReportsFolder", "json:ReportsFolder/cucumber.json"])
-public class CucumberRunner {
+@CucumberOptions(
+features = "Include/features",
+glue	 = ""
+)
+
+
+class CucumberRunner {
+	/**
+	 * The step definitions below match with Katalon sample Gherkin steps
+	 @Given("I want to write a step with (.*)")
+	 def I_want_to_write_a_step_with_name(String name) {
+	 println name
+	 }
+	 @When("I check for the (\\d+) in step")
+	 def I_check_for_the_value_in_step(int value) {
+	 println value
+	 }
+	 @Then("I verify the (.*) in step")
+	 def I_verify_the_status_in_step(String status) {
+	 println status
+	 }
+	 */
 }
