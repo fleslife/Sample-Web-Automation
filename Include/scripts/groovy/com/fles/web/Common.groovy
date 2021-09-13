@@ -101,19 +101,19 @@ class Common {
 		WebUI.waitForElementVisible(findTestObject('Object Repository/'+elme), 10)
 		WebUI.selectOptionByValue(findTestObject(elme), value, false)
 	}
-	
+
 	@When("I send keys TAB on '(.*)'")
 	def I_send_keys_TAB_on(String elme) {
 		WebUI.waitForElementVisible(findTestObject('Object Repository/'+elme), 10)
 		WebUI.sendKeys(findTestObject('Object Repository/'+elme), Keys.chord(Keys.TAB))
 	}
-	
+
 	@When("I send keys ENTER on '(.*)'")
 	def I_send_keys_ENTER_on(String elme) {
 		WebUI.waitForElementVisible(findTestObject('Object Repository/'+elme), 10)
 		WebUI.sendKeys(findTestObject('Object Repository/'+elme), Keys.chord(Keys.ENTER))
 	}
-	
+
 	@When("I scroll to element '(.*)'")
 	def I_scroll_to_element(String elme){
 		WebUI.scrollToElement(findTestObject(elme),10)
@@ -125,31 +125,27 @@ class Common {
 		WebUI.waitForElementVisible(findTestObject('Object Repository/'+elme), 10)
 		WebUI.check(findTestObject(elme))
 	}
-	
+
 	@When("I upload file '(.*)' on '(.*)'")
 	def I_upload_file_on(String file, String elme) {
 		//WebUI.delay(2)
 		WebUI.waitForElementVisible(findTestObject('Object Repository/'+elme), 10)
 		WebUI.uploadFile(findTestObject('Object Repository/'+elme), file)
 	}
-	
+
 	@When("I wait for (.*) seconds")
 	def I_wait_for(String secondsStr) {
 		int seconds = secondsStr.toInteger()
 		WebUI.delay(seconds)
 	}
-	
+
 	@Then("I take screenshot")
 	def I_take_the_screenshot(){
 		WebUI.takeScreenshot()
 	}
-	
+
 	@Then("I close browser")
 	def I_close_browser(){
 		WebUI.closeBrowser()
 	}
-	
-	
-	
-	
 }
