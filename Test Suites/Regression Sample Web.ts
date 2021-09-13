@@ -4,7 +4,7 @@
    <name>Regression Sample Web</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>flespj@gmail.com;</mailRecipient>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
