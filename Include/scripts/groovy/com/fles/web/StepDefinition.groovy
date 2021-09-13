@@ -1,3 +1,4 @@
+package com.fles.web
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -42,17 +43,6 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 import org.openqa.selenium.Keys as Keys
-
-import org.junit.runner.RunWith;
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
-
-@RunWith(Cucumber.class)
-@CucumberOptions(
-features = "Feature"
-)
-
-
 
 class StepDefinition {
 

@@ -15,3 +15,5 @@ import internal.GlobalVariable as GlobalVariable
 
 CucumberKW.runFeatureFile('Include/features/Web/Practice Form.feature')
 
+//CucumberKW.runWithCucumberRunner(CucumberRunner.class)
+
