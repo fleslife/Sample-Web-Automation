@@ -43,9 +43,18 @@ import cucumber.api.java.en.When
 
 import org.openqa.selenium.Keys as Keys
 
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+features = "Feature"
+)
 
 
-class Common {
+
+class StepDefinition {
 
 	String textInput
 	String textValue
