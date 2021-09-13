@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8045536E4BB572A77FF5D61C102726EA",
+  "keywordClasses": [
+    {
+      "name": "com.fles.web.StepDefinition",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

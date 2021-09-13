@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "D85924F79CC7F0F98F307092A88CDCE6",
+  "keywordClasses": [
+    {
+      "name": "com.fles.web.CucumberRunner",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
