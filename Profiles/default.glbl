@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'30'</initValue>
+      <name>delay_timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demoqa.com/automation-practice-form'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

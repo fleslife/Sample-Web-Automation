@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description>Regression</description>
-   <name>Regression</name>
+   <name>Regression Sample Web</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient>flespj@gmail.com;</mailRecipient>
@@ -11,15 +11,9 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>69534e80-68e3-4ebb-aecb-7e365fb41ab0</testSuiteGuid>
    <testCaseLink>
-      <guid>70d8ed4a-b7b2-4723-9178-66c0c6a30f77</guid>
+      <guid>42130c9f-d1e8-4e20-bead-0a34632551f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Practice Form</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>652b5eb5-f717-4469-a2fc-486a151a5f2a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Practice Form</testCaseId>
+      <testCaseId>Test Cases/Web Sample - Cucumber/Practice Form</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
