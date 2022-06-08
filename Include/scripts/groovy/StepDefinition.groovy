@@ -78,6 +78,11 @@ class StepDefinition {
 		//WebUI.waitForElementClickable(findTestObject('Object Repository/'+elme), GlobalVariable.delay_timeout)
 		WebUI.click(findTestObject('Object Repository/'+elme))
 	}
+	
+	@When("I submit '(.*)'")
+	def I_submit(String elme) {
+	WebUI.submit(findTestObject('Object Repository/'+elme))
+	}
 
 	@When("I type '(.*)' on '(.*)'")
 	def I_type_on(String txt, String elme) {
@@ -140,6 +145,16 @@ class StepDefinition {
 	@Then("I take screenshot")
 	def I_take_the_screenshot(){
 		WebUI.takeScreenshot()
+	}
+	
+	@When("I should see text '(.*)'")
+	def I_should_see_text(String txt) {
+		if (txt.indexOf('{randomValue}') > 1){
+			txt = txt.replace('{randomValue}', this.textInput)
+			WebUI.verifyTextPresent(txt, false)
+		}else{
+			WebUI.verifyTextPresent(txt, false)
+		}
 	}
 
 	@Then("I close browser")

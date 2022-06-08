@@ -11,7 +11,13 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>69534e80-68e3-4ebb-aecb-7e365fb41ab0</testSuiteGuid>
    <testCaseLink>
-      <guid>42130c9f-d1e8-4e20-bead-0a34632551f6</guid>
+      <guid>2b0a7878-e617-4dbb-b816-444374261387</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web Sample - Web UI/Practice Form</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7cd90e9d-b660-484d-96ab-1c0f6f36709d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Sample - Cucumber/Practice Form</testCaseId>

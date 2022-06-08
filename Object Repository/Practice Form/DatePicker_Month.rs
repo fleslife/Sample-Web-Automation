@@ -6,12 +6,15 @@
    <elementGuidId>50d294ef-c95e-4005-8489-400a176f0fa9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[2]/div/div/div[2]/div[2]/div[1]/form/div[5]/div[2]/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/select</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@class='react-datepicker__month-select']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

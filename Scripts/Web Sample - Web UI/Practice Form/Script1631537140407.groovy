@@ -13,7 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+//import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+//import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 'Open browser and navigate to the specified url'
 WebUI.openBrowser('https://demoqa.com/automation-practice-form')
 
@@ -41,10 +45,10 @@ WebUI.click(findTestObject('Practice Form/TextBox_DateOfBirth'))
 'Select options that have a value "July"'
 WebUI.selectOptionByValue(findTestObject('Practice Form/DatePicker_Month'), '6', false)
 
-'Select options that have a value "1984"'
-WebUI.selectOptionByValue(findTestObject('Practice Form/DatePicker_Year'), '1990', false)
+'Select options that have a value "1980"'
+WebUI.selectOptionByValue(findTestObject('Practice Form/DatePicker_Year'), '1980', false)
 
-'Click on element "28"'
+'Click on element "20"'
 WebUI.click(findTestObject('Practice Form/DatePicker_Day'))
 
 'Set the value of an input field "Subjects"'
@@ -60,7 +64,7 @@ WebUI.setText(findTestObject('Practice Form/TextBox_Subjects'), 'Economics')
 WebUI.sendKeys(findTestObject('Practice Form/TextBox_Subjects'), Keys.chord(Keys.ENTER))
 
 'Scroll into element "CheckBox Music"'
-WebUI.scrollToElement(findTestObject('Practice Form/TextBox_MobileNumber'), 30)
+WebUI.scrollToElement(findTestObject('Practice Form/TextBox_MobileNumber'), 10)
 
 'Check a checkBox "Sports"'
 WebUI.check(findTestObject('Practice Form/CheckBox_Sports'))
@@ -93,10 +97,13 @@ WebUI.delay(5)
 WebUI.takeScreenshot()
 
 'Click on element "Button-Submit"'
-WebUI.click(findTestObject('Practice Form/Button_Submit'))
+WebUI.submit(findTestObject('Practice Form/Button_Submit'))
 
 'Delay execution for 5 seconds'
 WebUI.delay(5)
+
+'Verify for success submit'
+WebUI.verifyTextPresent('Thanks for submitting the form', false)
 
 'Take screenshot of the browser'
 WebUI.takeScreenshot()

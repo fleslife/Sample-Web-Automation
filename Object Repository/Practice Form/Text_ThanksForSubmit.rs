@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>DatePicker_Day</description>
-   <name>DatePicker_Day</name>
+   <description></description>
+   <name>Text_ThanksForSubmit</name>
    <tag></tag>
-   <elementGuidId>f957a215-cb09-4c52-b615-1c4dfbe57f11</elementGuidId>
+   <elementGuidId>d319b708-4476-4980-8d53-33a944e7cca4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='react-datepicker__day react-datepicker__day--020 react-datepicker__day--weekend']</value>
+         <value>//*[@id=&quot;example-modal-sizes-title-lg&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
